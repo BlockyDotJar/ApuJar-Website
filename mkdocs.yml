@@ -1,0 +1,64 @@
+site_name: ApuJar
+copyright: 'Copyright 2023 Dominic R. (aka. BlockyDotJar)'
+
+theme:
+  custom_dir: overrides
+  favicon: assets/images/logo-apu.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - toc.integrate
+    - content.code.annotate
+  name: material
+  logo: assets/images/logo-apu.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: green
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: green
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+extra_css:
+- 'assets/stylesheets/frontpage.css'
+- 'assets/stylesheets/tasklists.css'
+
+markdown_extensions:
+  - admonition
+  - meta
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - footnotes
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+watch:
+  - overrides
+
+nav:
+  - Getting Started:
+    - Add Bot: getting-started/add-bot.md
+    - Part Bot: getting-started/part-bot.md
+  - Commands:
+    - Owner Commands: bot-commands/owner-commands.md
+    - Admin Commands: bot-commands/admin-commands.md
+    - Utility Commands: bot-commands/utility-commands.md

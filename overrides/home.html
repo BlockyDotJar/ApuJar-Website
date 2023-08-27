@@ -1,0 +1,56 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>
+    .md-header {
+      position: initial;
+    }
+    .md-main__inner {
+      margin: 0;
+    }
+    .md-content {
+      display: none;
+    }
+    @media screen and (min-width:60em){
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+    @media screen and (min-width:76.25em){
+      .md-sidebar--primary{
+        display: none;
+      }
+    }
+    .md-tabs {
+      display: none;
+    }
+    @media only screen and (max-width: 1023px) {
+      .md-typeset pre {
+        display: grid;
+      }
+
+      .md-typeset .tabbed-set {
+        display: grid;
+      }
+    }
+  </style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <header class="mdx-hero">
+        <img class="home__logo" src="assets/images/logo.png" alt="Logo image for ApuJar" draggable="false">
+        <p class="mdx-description">
+          A useful bot for Twitch with many cool utility features.
+        </p>
+          <a href="getting-started/add-bot" title="Add bot" class="md-button md-button--primary">Getting started</a>
+        <p>
+      </header>
+      <div class="mdx-description">
+        {{ page.content }}
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+  {{ super() }}
+{% endblock %}
