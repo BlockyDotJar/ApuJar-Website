@@ -1,6 +1,6 @@
 # Owner command overview
 
-!!! example "Examples"
+!!! example "Test"
     ```yml
 test: test
     ```
