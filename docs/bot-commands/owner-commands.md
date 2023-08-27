@@ -2,5 +2,5 @@
 
 !!! example "Test"
     ```yml
-test: test
+    test: test
     ```
