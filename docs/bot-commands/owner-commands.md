@@ -10,12 +10,12 @@
     | Parameter   | Description                                                                             |
     | ----------- | --------------------------------------------------------------------------------------- |
     | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**case-insensitive**, can contain the **@** character) |
+    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
-        * No user specified
-        * User doesn't match with regex `^(?!_)\w+$`
+        * No username specified
+        * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch api
         * User already promoted
 
@@ -28,8 +28,7 @@
     Demotes a bot owner.
 
     ```java
-    Usages: 
-    
+    Usages:
     <prefix>delowner @username
     <prefix>deleteowner @username
     ```
@@ -37,11 +36,11 @@
     | Parameter   | Description                                                                             |
     | ----------- | --------------------------------------------------------------------------------------- |
     | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**case-insensitive**, can contain the **@** character) |
+    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
-        * No user specified
+        * No username specified
         * User is not an owner
 
 
@@ -55,12 +54,12 @@
     | Parameter   | Description                                                                             |
     | ----------- | --------------------------------------------------------------------------------------- |
     | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**case-insensitive**, can contain the **@** character) |
+    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
-        * No user specified
-        * User doesn't match with regex `^(?!_)\w+$`
+        * No username specified
+        * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch api
         * User already promoted
 
@@ -73,8 +72,7 @@
     Demotes a bot admin.
 
     ```java
-    Usages: 
-
+    Usages:
     <prefix>deladmin @username
     <prefix>deleteadmin @username
     ```
@@ -82,13 +80,13 @@
     | Parameter   | Description                                                                             |
     | ----------- | --------------------------------------------------------------------------------------- |
     | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**case-insensitive**, can contain the **@** character) |
+    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
-        * No user specified
-        * User is not an admin
-        * User is an owner
+        * No username specified
+        * Specified user is not even an admin
+        * Specified user is an owner
     
 
 ??? info "exit"
@@ -98,9 +96,9 @@
     Usages: <prefix>exit
     ```
 
-    | Parameter   | Description                                                                             |
-    | ----------- | --------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
+    | Parameter   | Description                                         |
+    | ----------- | --------------------------------------------------- |
+    | `prefix`    | Your channel specific prefix    (**Default:** kok!) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
@@ -113,10 +111,10 @@
     Usages: <prefix>sql <SQL-code>
     ```
 
-    | Parameter   | Description                                                                             |
-    | ----------- | --------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `SQL-code`  | The sql code to execute.                                                                |
+    | Parameter   | Description                                         |
+    | ----------- | --------------------------------------------------- |
+    | `prefix`    | Your channel specific prefix    (**Default:** kok!) |
+    | `SQL-Code`  | The sql code to execute.                            |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
