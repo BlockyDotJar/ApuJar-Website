@@ -20,4 +20,4 @@ kok!join blockydotjar
 If you want to know more about this command you can [click here](https://blockydotjar.github.io/ApuJar-Website/bot-commands/utility-commands/?h=join) to get to the command overview.
 <br>If everything went right, the bot will response as following in the specified chat:
 
-<p><image src="/assets/images/join-message.png" alt="ApuJar's join message, after successful connection to the chat."></image></p>
+![ApuJar's join message, after successful connection to the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/join-message.png)

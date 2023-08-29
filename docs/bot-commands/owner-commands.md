@@ -119,3 +119,4 @@
     !!! failure "Possible errors"
         * Message sender is not an owner
         * No sql code specified
+
