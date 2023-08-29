@@ -1,44 +1,5 @@
 # Admin command overview
 
-??? info "join"
-    Lets the bot join a specific chat.
-
-    ```java
-    Usage: <prefix>join @username
-    ```
-
-    | Parameter   | Description                                                                             |
-    | ----------- | --------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
-
-    !!! failure "Possible errors"
-        * Message sender is not an admin
-        * No username specified
-        * Username doesn't match with regex `^(?!_)\w+$`
-        * User not found by Twitch api
-        * Chat already joined
-
-
-??? info "part"
-    Lets the bot leave from a specific chat.
-
-    ```java
-    Usage: <prefix>part @username
-    ```
-
-    | Parameter   | Description                                                                             |
-    | ----------- | --------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                     |
-    | `username`  | The name of the user            (**Case-Insensitive**, Can contain the **@** character) |
-
-    !!! failure "Possible errors"
-        * Message sender is not an admin
-        * No username specified
-        * Bot not connected to chat
-        * Username does match with an owner name
-
-
 ??? info "say"
     Lets the bot say a message in the current chat.
 
@@ -170,6 +131,7 @@
     ```
 
     Adds a global command that can be used in every chat, the bot currently is in.
+    <br>The global command name can't have the same name as already existing (bot/global/channel specific) commands.
 
     ```java
     Usages: 
@@ -179,11 +141,11 @@
     <prefix>addglobalcommand <command-name> <command-message>
     ```
 
-    | Parameter           | Description                                                                                                                                                                              |
-    | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | `prefix`            | Your channel specific prefix                (**Default:** kok!)                                                                                                                          |
-    | `command-name`      | The name for the global command             (Can contain prefix, Can't contain the **'** character, Can't have the same name as already existing (bot/global/channel specific) commands) |
-    | `command-message`   | The message for the global command          (Can't contain the **'** character)                                                                                                          |
+    | Parameter           | Description                                                                                         |
+    | ------------------- | --------------------------------------------------------------------------------------------------- |
+    | `prefix`            | Your channel specific prefix                (**Default:** kok!)                                     |
+    | `command-name`      | The name for the global command             (Can contain prefix, Can't contain the **'** character) |
+    | `command-message`   | The message for the global command          (Can't contain the **'** character)                     |
 
     !!! failure "Possible errors"
         * Message sender is not an admin

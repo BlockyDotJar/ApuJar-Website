@@ -9,6 +9,8 @@ theme:
     - navigation.tabs
     - toc.integrate
     - content.code.annotate
+    - search.highlight
+    - search.share
   name: material
   logo: assets/images/logo-apu.png
   icon:
