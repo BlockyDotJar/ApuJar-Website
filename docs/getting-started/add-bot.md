@@ -17,7 +17,7 @@ kok!join blockydotjar
 !!! danger "Permissions needed"
     You need to be mod or broadcaster (if the chat is equal to your chat) at the chat you specified.
 
-If you want to know more about this command you can [click here](https://blockydotjar.github.io/ApuJar-Website/bot-commands/utility-commands.html) to get to the command overview.
+If you want to know more about this command you can [click here](https://blockydotjar.github.io/ApuJar-Website/bot-commands/utility-commands.html?h=join) to get to the command overview.
 <br>If everything went right, the bot will response as following in the specified chat:
 
 ![ApuJar's join message, after successful connection to the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/join-message.png)
