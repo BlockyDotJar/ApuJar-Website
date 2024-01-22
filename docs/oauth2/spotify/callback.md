@@ -7,13 +7,13 @@
 
     document.addEventListener('click', function (event) {
         if (event.target.id === "code") {
-            if (code !== null && code.startsWith("AQ") && code.length === 348) {
+            if (code !== null && code.startsWith("AQ") && code.length === 399) {
                 navigator.clipboard.writeText(code);
                 alert("Successfully copied authorization code to clipboard.");
                 return;
             }
 
-            alert("No code found in the query parameters in the callback url.");
+            alert("No code query parameter found in the callback url.");
         }
     });
 </script>

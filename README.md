@@ -1,5 +1,15 @@
+[license-shield]: https://img.shields.io/badge/License-GPL%203.0-white.svg
+[license]: https://github.com/BlockyDotJar/VorteX/tree/main/LICENSE
+
+[discord-invite-shield]: https://discord.com/api/guilds/876766868864647188/widget.png
+[discord-invite]: https://discord.gg/FnGFbzCw2r
+
+[build-status-shield]: https://github.com/BlockyDotJar/ApuJar-Website/actions/workflows/build.yml/badge.svg
+[build-status]: https://github.com/BlockyDotJar/ApuJar-Website/actions/workflows/build.yml
+
 # ApuJar Documentations
-[![License](https://img.shields.io/badge/License-Apache%202.0-white.svg)](https://github.com/BlockyDotJar/ApuJar-Website/tree/main/LICENSE) [![Build status](https://github.com/BlockyDotJar/ApuJar-Website/actions/workflows/build.yml/badge.svg)](https://github.com/BlockyDotJar/ApuJar-Website/actions/workflows/build.yml) [![Discord](https://discord.com/api/guilds/876766868864647188/widget.png)](https://discord.gg/JFnGFbzCw2r)
+
+[ ![license-shield][] ][license] [ ![build-status-shield][] ][build-status] [ ![discord-invite-shield][] ][discord-invite]
 
 This website serves as documentation for my Twitch bot ApuJar. 
 This website is written in markdown using [mkdocs-material](https://squidfunk.github.io/mkdocs-material).
