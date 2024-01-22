@@ -6,10 +6,11 @@ This website is written in markdown using [mkdocs-material](https://squidfunk.gi
 
 ## View documentation website locally
 
-To view the documentation website locally, you first need to install mkdocs-material:
+To view the documentation website locally, you first need to install mkdocs-material and mkdocs-redirects:
 
 ```sh
 pip install mkdocs-material
+pip install mkdocs-redirects
 ```
 
 You can 'serve' the site locally and preview your changes you've written with this command:

@@ -1,5 +1,6 @@
 site_name: ApuJar
-copyright: 'Copyright 2023 Dominic R. (aka. BlockyDotJar)'
+site_url: ""
+copyright: 'Copyright 2024 Dominic R. (aka. BlockyDotJar)'
 
 theme:
   custom_dir: overrides
@@ -41,6 +42,12 @@ theme:
     toggle:
       icon: material/weather-sunny
       name: Switch to light mode
+use_directory_urls: false
+
+plugins:
+  - redirects:
+      redirect_maps:
+        'oauth2/spotify.md': 'https://accounts.spotify.com/authorize?client_id=3afe9abbb2bd4c51bf9840c72ee76950&redirect_uri=https%3A%2F%2Fblockydotjar.github.io%2FApuJar-Website%2Foauth2%2Fspotify%2Fcallback.html&response_type=code&scope=user-read-playback-state,user-modify-playback-state,user-read-currently-playing,user-top-read,user-read-recently-played'
 
 extra_css:
 - 'assets/stylesheets/frontpage.css'
@@ -63,8 +70,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 watch:
   - overrides
@@ -77,3 +84,4 @@ nav:
     - Owner Commands: bot-commands/owner-commands.md
     - Admin Commands: bot-commands/admin-commands.md
     - Utility Commands: bot-commands/utility-commands.md
+  - Spotify: oauth2/spotify.md
