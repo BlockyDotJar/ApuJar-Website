@@ -38,7 +38,7 @@ search:
 
 Get your authorization code by pressing the button below and use the `kok!addspotifyuser` command with the authorization code to add your Spotify account to ApuJar's database.
 
-<div id="code">
+<div id="code">Loading...</div>
 
 !!! note "Tip"
     You can get the channel specific prefix from the bot, by simply pinging the bot in the chat with `prefix` in the same message. 
