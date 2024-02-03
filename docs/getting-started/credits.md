@@ -28,9 +28,9 @@ Thank you to all of the contributors of [the dependencies/plugins/other projects
     * For testing some features
 * deadcr1 (133856486)
     * For making it easier for me to develop the Spotify commands
-    * For helping my on finding some issues
+    * For helping me on finding some issues
 * jannik_vdb (138187273)
-    * For helping my on finding some issues
+    * For helping me on finding some issues
 * <span class="holyshithowlongisthisname">0xWWWWWWWWWWWWWWWWWWWWWWW</span> (654368477)
     * For having a very long name
 
