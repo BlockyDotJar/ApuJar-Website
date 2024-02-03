@@ -21,3 +21,5 @@ If you want to know more about this command you can [click here](https://blockyd
 <br>If everything went right, the bot will response as following in the specified chat:
 
 ![ApuJar's join message, after successful connection to the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/join-message.png)
+
+Any problems? Join our [Discord server](https://discord.gg/FnGFbzCw2r) or send me a dm on Twitch (BlockyDotJar -> 755628467).

@@ -16,13 +16,13 @@
         * Message sender is not an owner
         * No username specified
         * Username doesn't match with regex `^(?!_)\w+$`
-        * User not found by Twitch api
+        * User not found by Twitch API
         * User already promoted
 
 
-??? info "delowner"
+??? info "deleteowner"
     ```yaml
-    Alias: deleteowner
+    Alias: delowner
     ```
 
     Demotes a bot owner.
@@ -60,13 +60,13 @@
         * Message sender is not an owner
         * No username specified
         * Username doesn't match with regex `^(?!_)\w+$`
-        * User not found by Twitch api
+        * User not found by Twitch API
         * User already promoted
 
 
-??? info "deladmin"
+??? info "deleteadmin"
     ```yaml
-    Alias: deleteadmin
+    Alias: deladmin
     ```
 
     Demotes a bot admin.
@@ -114,9 +114,10 @@
     | Parameter   | Description                                         |
     | ----------- | --------------------------------------------------- |
     | `prefix`    | Your channel specific prefix    (**Default:** kok!) |
-    | `SQL-Code`  | The sql code to execute.                            |
+    | `SQL-Code`  | The sql code to execute                             |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
         * No sql code specified
 
+Any problems? Join our [Discord server](https://discord.gg/FnGFbzCw2r) or send me a dm on Twitch (BlockyDotJar -> 755628467).

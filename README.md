@@ -12,7 +12,7 @@
 [ ![license-shield][] ][license] [ ![build-status-shield][] ][build-status] [ ![discord-invite-shield][] ][discord-invite]
 
 This website serves as documentation for my Twitch bot ApuJar. 
-This website is written in markdown using [mkdocs-material](https://squidfunk.github.io/mkdocs-material).
+This website is written in markdown using [mkdocs-material](https://squidfunk.github.io/mkdocs-material) and [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects).
 
 ## View documentation website locally
 
