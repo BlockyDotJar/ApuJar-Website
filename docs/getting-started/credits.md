@@ -16,6 +16,7 @@ Thank you to all of the contributors of [the dependencies/plugins/other projects
     * For some improvement ideas
     * For testing some features
 * JeGil503 (249879663)
+    * For helping me by testing the Spotify commands
     * For some feature and improvement ideas
     * For testing some features
 * yohlu (456476158)
