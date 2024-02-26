@@ -32,6 +32,8 @@ Thank you to all of the contributors of [the dependencies/plugins/other projects
     * For helping me on finding some issues
 * jannik_vdb (138187273)
     * For helping me on finding some issues
+* cordo_exe (259160340)
+    * For helping me on finding some issues
 * <span class="holyshithowlongisthisname">0xWWWWWWWWWWWWWWWWWWWWWWW</span> (654368477)
     * For having a very long name
 

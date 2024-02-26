@@ -30,6 +30,7 @@ search:
         }
     });
 </script>
+
 <style>
 	#code-error {
 	    color: red;

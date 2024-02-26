@@ -88,4 +88,5 @@ nav:
     - Admin Commands: bot-commands/admin-commands.md
     - Utility Commands: bot-commands/utility-commands.md
     - Spotify Commands: bot-commands/spotify-commands.md
+    - 7tv Commands: bot-commands/seventv-commands.md
   - Spotify: oauth2/spotify.md

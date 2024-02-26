@@ -1,7 +1,9 @@
 # ApuJar dependencies
 
-This project is based on **Java 21.0.2**!
+ApuJar is based on **Java 21.0.2**!
 <br>All dependencies and plugins are managed automatically by **Gradle 9.6**!
+
+This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdocs-material](https://github.com/squidfunk/mkdocs-material) and [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects)!
 
 * (**kotlin**) stdlib
     * Version: **1.9.22**
@@ -9,27 +11,24 @@ This project is based on **Java 21.0.2**!
 * twitch4j
     * Version: **1.19.0**
     * [Website](https://twitch4j.github.io/)
-* retrofit
-    * Version: **2.9.0**
-    * [Website](https://square.github.io/retrofit/)
-* converter-jackson
-    * Version: **2.9.0**
-    * [Github](https://github.com/square/retrofit/tree/trunk/retrofit-converters/jackson)
 * spotify-web-api-java
     * Version: **8.3.5**
     * [Github](https://github.com/spotify-web-api-java/spotify-web-api-java)
-* json
-    * Version: **20231013**
-    * [Github](https://github.com/stleary/JSON-java)
+* retrofit
+    * Version: **2.9.0**
+    * [Website](https://square.github.io/retrofit/)
+* converter-gson
+    * Version: **2.9.0**
+    * [Github](https://github.com/square/retrofit/tree/trunk/retrofit-converters/gson)
 * okhttp
     * Version: **4.12.0**
     * [Website](https://square.github.io/okhttp/)
 * okio-jvm
-    * Version: **3.7.0**
+    * Version: **3.8.0**
     * [Website](https://square.github.io/okio/)
-* oshi-core
-    * Version: **6.4.11**
-    * [Website](https://www.oshi.ooo/)
+* json
+    * Version: **20240205**
+    * [Github](https://github.com/stleary/JSON-java)
 * sqlite-jdbc
     * Version: **3.45.1.0**
     * [Github](https://github.com/xerial/sqlite-jdbc)
@@ -43,10 +42,10 @@ This project is based on **Java 21.0.2**!
     * Version: **4.4**
     * [Website](https://commons.apache.org/proper/commons-collections/)
 * slf4j-api
-    * Version: **2.0.11**
+    * Version: **2.0.12**
     * [Website](https://slf4j.org/)
 * logback-classic
-    * Version: **1.4.14**
+    * Version: **1.5.0**
     * [Website](https://logback.qos.ch/)
 * spotbugs-annotations
     * Version: **4.8.3**
@@ -68,7 +67,7 @@ This project is based on **Java 21.0.2**!
 # ApuJar-Website dependencies
 
 * mkdocs-material
-    * Version: **9.5.7**
+    * Version: **9.5.11**
     * [Website](https://squidfunk.github.io/mkdocs-material)
 * mkdocs-redirects
     * Version: **1.2.1**
@@ -86,8 +85,8 @@ This project is based on **Java 21.0.2**!
 # Other used tools
 
 * IntelliJ IDEA Community Edition
-    * Version: **2023.3.3**
+    * Version: **2023.3.4**
     * [Website](https://www.jetbrains.com/de-de/idea)
 * Visual Studio Code
-    * Version: **1.85.2**
+    * Version: **1.86.2**
     * [Website](https://code.visualstudio.com/)
