@@ -35,6 +35,9 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
 * dotenv-java
     * Version: **3.0.0**
     * [Github](https://github.com/cdimascio/dotenv-java)
+* quartz
+    * Version: **2.3.2**
+    * [Website](http://www.quartz-scheduler.org)
 * commons-lang3
     * Version: **3.14.0**
     * [Website](https://commons.apache.org/proper/commons-lang/)
