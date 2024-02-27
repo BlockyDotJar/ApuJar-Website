@@ -35,6 +35,9 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
 * dotenv-java
     * Version: **3.0.0**
     * [Github](https://github.com/cdimascio/dotenv-java)
+* joda-time
+    * Version: **2.12.7**
+    * [Website](https://www.joda.org/joda-time)
 * quartz
     * Version: **2.3.2**
     * [Website](http://www.quartz-scheduler.org)
