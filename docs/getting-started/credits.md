@@ -1,6 +1,6 @@
 # Credits
 
-Thank you to all of the contributors of [the dependencies/plugins/other projects](https://blockydotjar.github.io/ApuJar-Website/getting-started/dependencies.html) i use for maintaining such awesome projects and to everyone that helps me testing and developing ApuJar!
+Thank you to all of the contributors of [the dependencies/plugins/other projects](https://apujar.blockyjar.dev/getting-started/dependencies.html) i use for maintaining such awesome projects and to everyone that helps me testing and developing ApuJar!
 
 # Special thanks...
 

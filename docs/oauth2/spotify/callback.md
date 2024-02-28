@@ -13,7 +13,7 @@ search:
     window.onload = async function () {
         const codeElement = document.getElementById("code");
 
-        if (code !== null && code.startsWith("AQ") && code.length === 399) {
+        if (code !== null && code.startsWith("AQ") && code.length === 376) {
             codeElement.innerHTML = "<p id='code' title='Get Spotify authorization code' class='md-button md-button--primary'>Get authorization code!</p>";
             return;
         }
@@ -48,10 +48,10 @@ Get your authorization code by pressing the button below and use the `kok!addspo
 <p>For Example:</p>
 
 ```java
-kok!addspotifyuser AQAYaXL2jQIqM0eOJGJK3PB-r6a4RHMG2nJRnEUcRG6byP9uOD7ktgF64rfIvydRkkq8hb8U2IWfLb_Udy76P9aO4_fw423Gn2LSSMOfYH6dZwa5_9ym1z_ihaxh15BiafwllTSoLdmNsfxdwSRY077LzBeh7R-8eL7toZ_OXTzdaD25Mwumu6LloYwtj7F-wC90RS9Mjm9TzWNRKo8Bh6oTNwbGJvCnPrbY9Aiqrvwoof5nKug345-tbLJQ89Damn7o-lgGTUvI6gC021DezL2ep5GgCHcrPLRu5uBt2t5HRHgl_RyFqMFpNOuHwvYcvkVm3NJfrL3GvBFI8dJjxJVzJh8Oh_QK1-_4vylLKdsEhaLU9H0wSjH9LLGqiPqwoA0rZ0JX-7V2lxI
+kok!addspotifyuser AQByeoV6_LR-jINKEIwCR09fLHkxJkGqTJdwg1Yg76Kqeuj42VYN_WNkcDi-TKcZbBX_3gW_ujEtLr0yS8yDnw1Wx0JpEDuOGDKUW-Hg_cQNrueHHO7sVUTSjuRfcOgNvElGKlU7rZYAiE8PdUjjp30eCGzsFogBkY9rS6WpGNa1VxScrAdCEf3VSavO1C0pm4r2gS4wIxt31rtf0Zg167EvJvhT4CUXRAZiLcdf_d1LIvLJ4pzoECJqbCXR-2IwHL6UC8qQrmbeF1sRvmtwrJslanoNSF2mlgcFJvaDXEm4a6dER7wvvp_Uo3P5VLroTi9u8miyhz58hVwF4OsFko5KxA3eBGFhib-pS04VC_1CsMbmhIQwZxw_
 ```
 
-If you want to know more about this command you can [click here](https://blockydotjar.github.io/ApuJar-Website/bot-commands/spotify-commands.html?h=addspotifyuser) to get to the command overview.
+If you want to know more about this command you can [click here](https://apujar.blockyjar.dev/bot-commands/spotify-commands.html?h=addspotifyuser) to get to the command overview.
 <br>If everything went right, the bot will response as following in the specified chat:
 
 ![ApuJar's message, after successful creation of access and refresh token for Spotify from the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/spotify-message.png)

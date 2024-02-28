@@ -17,12 +17,12 @@
     | Parameter   		    | Description                                                                                                                  |
     | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
     | `prefix`    		    | Your channel specific prefix    (**Default:** kok!)                                                   			   |
-    | `spotify-authorization-code`  | Your Spotify authorization code (Can be generated [here](https://blockydotjar.github.io/ApuJar-Website/oauth2/spotify.html)) |
+    | `spotify-authorization-code`  | Your Spotify authorization code (Can be generated [here](https://apujar.blockyjar.dev/oauth2/spotify.html)) |
 
     !!! failure "Possible errors"
         * No authorization code specified
         * Authorization code does not start with 'AQ'
-        * Authorization code does not match RegEx `^[\\w-]{399}$`
+        * Authorization code does not match RegEx `^[\\w-]{376}$`
         * Spotify side error (**for example:** expired authorization code, invalid authorization code)
 
 

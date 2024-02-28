@@ -63,6 +63,8 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * [Website](https://docs.gradle.org/current/userguide/java_library_plugin.html)
 * application
     * [Website](https://docs.gradle.org/current/userguide/application_plugin.html)
+* idea
+    * [Website](https://docs.gradle.org/current/userguide/idea_plugin.html)
 * versions
     * Version: **0.51.0**
     * [Website](https://plugins.gradle.org/plugin/com.github.ben-manes.versions)
@@ -70,7 +72,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **1.9.22**
     * [Website](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm)
 
-# ApuJar-Website dependencies
+# Website dependencies
 
 * mkdocs-material
     * Version: **9.5.11**
