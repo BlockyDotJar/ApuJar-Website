@@ -12,7 +12,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **1.19.0**
     * [Website](https://twitch4j.github.io/)
 * spotify-web-api-java
-    * Version: **8.3.5**
+    * Version: **8.3.6**
     * [Github](https://github.com/spotify-web-api-java/spotify-web-api-java)
 * retrofit
     * Version: **2.9.0**
@@ -51,7 +51,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **2.0.12**
     * [Website](https://slf4j.org/)
 * logback-classic
-    * Version: **1.5.0**
+    * Version: **1.5.1**
     * [Website](https://logback.qos.ch/)
 * spotbugs-annotations
     * Version: **4.8.3**
