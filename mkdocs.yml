@@ -78,15 +78,16 @@ watch:
   - overrides
 
 nav:
-  - Getting Started:
-    - Add Bot: getting-started/add-bot.md
-    - Part Bot: getting-started/part-bot.md
-    - Dependencies: getting-started/dependencies.md
-    - Credits: getting-started/credits.md
+  - General:
+    - Add Bot: general/add-bot.md
+    - Part Bot: general/part-bot.md
+    - Credits: general/credits.md
+    - License: general/license.md
+    - Dependencies: general/dependencies.md
   - Commands:
-    - Owner Commands: bot-commands/owner-commands.md
-    - Admin Commands: bot-commands/admin-commands.md
-    - Utility Commands: bot-commands/utility-commands.md
-    - Spotify Commands: bot-commands/spotify-commands.md
-    - 7tv Commands: bot-commands/seventv-commands.md
+    - Owner Commands: commands/owner.md
+    - Admin Commands: commands/admin.md
+    - Utility Commands: commands/utility.md
+    - Spotify Commands: commands/spotify.md
+    - 7tv Commands: commands/seventv.md
   - Spotify: oauth2/spotify.md

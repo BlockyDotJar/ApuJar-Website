@@ -1,6 +1,6 @@
 # Credits
 
-Thank you to all of the contributors of [the dependencies/plugins/other projects](/getting-started/dependencies.html) i use for maintaining such awesome projects and to everyone that helps me testing and developing ApuJar!
+Thank you to all of the contributors of [the dependencies/plugins/other projects](/general/dependencies.html) i use for maintaining such awesome projects and to everyone that helps me testing and developing ApuJar!
 
 # Special thanks...
 

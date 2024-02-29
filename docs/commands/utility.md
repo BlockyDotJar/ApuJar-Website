@@ -9,10 +9,10 @@
     Usage: <prefix>join @username?
     ```
 
-    | Parameter   | Description                                                                                           |
-    | ----------- | ----------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                                   |
-    | `username`  | The name of the user            (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
+    | Parameter  | Description                                                                                |
+    | ---------- | ------------------------------------------------------------------------------------------ |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                           |
+    | `username` | The name of the user (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * **If username is specified:** Username specified, where sender isn't even a mod or broadcaster at, without having admin/owner permissions
@@ -30,10 +30,10 @@
     Usage: <prefix>part @username?
     ```
 
-    | Parameter   | Description                                                                                           |
-    | ----------- | ----------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                                   |
-    | `username`  | The name of the user            (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
+    | Parameter  | Description                                                                                |
+    | ---------- | ------------------------------------------------------------------------------------------ |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                           |
+    | `username` | The name of the user (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * **If username is specified:** Username specified, where sender isn't even a mod or broadcaster at, without having admin/owner permissions

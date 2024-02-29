@@ -7,10 +7,10 @@
     Usage: <prefix>say <message>
     ```
 
-    | Parameter   | Description                                                     |
-    | ----------- | --------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix                (**Default:** kok!) |
-    | `message `  | The message to send in the current chat                         |
+    | Parameter | Description                                      |
+    | --------- | ------------------------------------------------ |
+    | `prefix`  | Your channel specific prefix (**Default:** kok!) |
+    | `message` | The message to send in the current chat          |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -27,11 +27,11 @@
     Usage: <prefix>spam <amount> <message>
     ```
 
-    | Parameter   | Description                                                                                                  |
-    | ----------- | ------------------------------------------------------------------------------------------------------------ |
-    | `prefix`    | Your channel specific prefix                            (**Default:** kok!)                                  |
-    | `amount`    | The amount of messages to spam in the current chat      (Can't be higher than 100 without owner permissions) |
-    | `message`   | The message to spam in the current chat                                                                      |
+    | Parameter | Description                                                                                             |
+    | --------- | ------------------------------------------------------------------------------------------------------- |
+    | `prefix`  | Your channel specific prefix (**Default:** kok!)                                                        |
+    | `amount`  | The amount of messages to spam in the current chat (Can't be higher than 100 without owner permissions) |
+    | `message` | The message to spam in the current chat                                                                 |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -57,11 +57,11 @@
     <prefix>usersay @username <message>
     ```
 
-    | Parameter   | Description                                                                                         |
-    | ----------- | --------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix                (**Default:** kok!)                                     |
-    | `username`  | The name of the user                        (**Case-Insensitive**, Can contain the **@** character) |
-    | `message `  | The message to send in the specified chat                                                           |
+    | Parameter  | Description                                                                  |
+    | ---------- | ---------------------------------------------------------------------------- |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
+    | `message`  | The message to send in the specified chat                                    |
 
     If a channel specific (global) command is specified in the message, the output from the command will be sent.
 
@@ -111,12 +111,12 @@
     <prefix>userspam @username <amount> <message>
     ```
 
-    | Parameter   | Description                                                                                                     |
-    | ----------- | --------------------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix                            (**Default:** kok!)                                     |
-    | `username`  | The name of the user                                    (**Case-Insensitive**, Can contain the **@** character) |
-    | `amount`    | The amount of messages to spam in the specified chat    (Can't be higher than 100 without owner permissions)    |
-    | `message`   | The message to spam in the specified chat                                                                       |
+    | Parameter  | Description                                                                                               |
+    | ---------- | --------------------------------------------------------------------------------------------------------- |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                                          |
+    | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character)                              |
+    | `amount`   | The amount of messages to spam in the specified chat (Can't be higher than 100 without owner permissions) |
+    | `message`  | The message to spam in the specified chat                                                                 |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -145,10 +145,10 @@
     <prefix>crossban @username
     ```
 
-    | Parameter   | Description                                                     					|
-    | ----------- | --------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix                (**Default:** kok!) 					|
-    | `username`  | The name of the user                        (**Case-Insensitive**, Can contain the **@** character) |
+    | Parameter  | Description                                                                  |
+    | ---------- | ---------------------------------------------------------------------------- |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!) 					         |
+    | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -171,10 +171,10 @@
     <prefix>crossunban @username
     ```
 
-    | Parameter   | Description                                                     					|
-    | ----------- | --------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix                (**Default:** kok!) 					|
-    | `username`  | The name of the user                        (**Case-Insensitive**, Can contain the **@** character) |
+    | Parameter  | Description                                                     	         |
+    | ---------- | ---------------------------------------------------------------------------- |
+    | `prefix`   | Your channel specific prefix (**Default:** kok!) 					         |
+    | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -199,11 +199,11 @@
     <prefix>addglobalcommand <command-name> <command-message>
     ```
 
-    | Parameter           | Description                                                                                         |
-    | ------------------- | --------------------------------------------------------------------------------------------------- |
-    | `prefix`            | Your channel specific prefix                (**Default:** kok!)                                     |
-    | `command-name`      | The name for the global command             (Can contain prefix, Can't contain the **'** character) |
-    | `command-message`   | The message for the global command          (Can't contain the **'** character)                     |
+    | Parameter         | Description                                                                             |
+    | ----------------- | --------------------------------------------------------------------------------------- |
+    | `prefix`          | Your channel specific prefix (**Default:** kok!)                                        |
+    | `command-name`    | The name for the global command (Can contain prefix, Can't contain the **'** character) |
+    | `command-message` | The message for the global command (Can't contain the **'** character)                  |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -229,11 +229,11 @@
     <prefix>editglobalcommand <command-name> <new-command-message>
     ```
 
-    | Parameter               | Description                                                                         |
-    | ----------------------- | ----------------------------------------------------------------------------------- |
-    | `prefix`                | Your channel specific prefix                    (**Default:** kok!)                 |
-    | `command-name`          | The name of the global command                                                      |
-    | `new-command-message`   | The new message for the global command          (Can't contain the **'** character) |
+    | Parameter             | Description                                                                |
+    | --------------------- | -------------------------------------------------------------------------- |
+    | `prefix`              | Your channel specific prefix (**Default:** kok!)                           |
+    | `command-name`        | The name of the global command                                             |
+    | `new-command-message` | The new message for the global command (Can't contain the **'** character) |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -260,10 +260,10 @@
     <prefix>deleteglobalcommand <command-name>
     ```
 
-    | Parameter               | Description                                            |
-    | ----------------------- | ------------------------------------------------------ |
-    | `prefix`                | Your channel specific prefix       (**Default:** kok!) |
-    | `command-name`          | The name of the global command                         |
+    | Parameter      | Description                                      |
+    | -------------- | ------------------------------------------------ |
+    | `prefix`       | Your channel specific prefix (**Default:** kok!) |
+    | `command-name` | The name of the global command                   |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
