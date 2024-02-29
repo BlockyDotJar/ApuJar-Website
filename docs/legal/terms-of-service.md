@@ -9,11 +9,11 @@ search:
 
 Thank you for using ApuJar! These Terms of Service ("Terms") govern your access to and use of the ApuJar website located at https://apujar.blockyjar.dev (the "Website"), as well as any related services provided by Dominic R. (referred to as "we", "us", or "our").
 
-By adding the ApuJar Twitch chat bot, you agree to these Terms. If you do not agree to these Terms, please refrain from adding the Twitch chatbot.
+By adding the ApuJar Twitch chatbot, you agree to these Terms. If you do not agree to these Terms, please refrain from adding the Twitch chatbot.
 
 ### 1. Description of the Website
 
-This website is a platform offering documentation and wiki services for the Twitch Chatbot known as ApuJar, as well as a Spotify authorization code (OAuth2) generator for the ApuJar Spotify application.
+This website is a platform offering documentation and wiki services for the Twitch chatbot known as ApuJar, as well as a Spotify authorization code (OAuth2) generator for the ApuJar Spotify application.
 
 ### 2. Changes to the Terms
 
@@ -25,7 +25,7 @@ If you have any questions or concerns about these Terms, please contact us at [m
 
 ### 4. Acceptance of Terms
 
-By adding the ApuJar Twitch chat bot, you agree to abide by these Terms of Service.
+By adding the ApuJar Twitch chatbot, you agree to abide by these Terms of Service.
 
 ### 5. Privacy Policy
 
@@ -63,7 +63,7 @@ These Terms shall be governed by and construed in accordance with the laws of [J
 
 We reserve the right to terminate or suspend your access to the Website and the chatbot at any time, without prior notice or liability, for any reason whatsoever.
 
-By adding the ApuJar Twitch chat bot, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. 
+By adding the ApuJar Twitch chatbot, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. 
 
 If you have any questions about these Terms, please contact us before proceeding.
 

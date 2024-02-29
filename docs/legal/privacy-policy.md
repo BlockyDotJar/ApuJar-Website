@@ -3,28 +3,28 @@ search:
   exclude: true
 ---
 
-# Privacy Policy for ApuJar Documentation Website
+# Privacy Policy
 
-**Last Updated:** *28 February 2024*
+**Last Updated:** *29. February 2024*
 
 Thank you for using the ApuJar Documentation Website. This Privacy Policy is designed to help you understand how your personal information is collected, used, and protected when you visit our website or interact with our services. Your privacy and trust are of utmost importance to us.
 
 ## Introduction
 
-The ApuJar Documentation Website serves as a platform to provide information regarding the ApuJar Twitch Chatbot, including chat commands, dependencies, credits, and instructions for adding or removing the bot. Additionally, it facilitates the generation of authorization codes for Spotify API integration with the ApuJar Twitch Chatbot.
+The ApuJar Documentation Website serves as a platform to provide information regarding the ApuJar Twitch chatbot, including chat commands, dependencies, credits, and instructions for adding or removing the bot. Additionally, it facilitates the generation of authorization codes for Spotify API integration with the ApuJar Twitch chatbot.
 
 ## Data Collection
 
-We collect certain personal information when you interact with our website or the ApuJar Twitch Chatbot, particularly when you access the Spotify authorization functionality. 
+We collect certain personal information when you interact with our website or the ApuJar Twitch chatbot, particularly when you access the Spotify authorization functionality. 
 <br>The data collected may include:
 
 * Information provided by you during the Spotify authorization process, such as login credentials.
-* Twitch user information, including username and user ID, which may be stored for operational purposes related to our Twitch Chatbot.
+* Twitch user information, including username and user ID, which may be stored for operational purposes related to our Twitch chatbot.
 
 ## Use of Data
 
-* **Authorization Codes:** Authorization codes generated for Spotify API integration are used solely for the purpose of enabling Spotify-related commands within the ApuJar Twitch Chatbot.
-* **Twitch User Information:** Usernames and user IDs of Twitch users may be stored for operational purposes related to the ApuJar Twitch Chatbot.
+* **Authorization Codes:** Authorization codes generated for Spotify API integration are used solely for the purpose of enabling Spotify-related commands within the ApuJar Twitch chatbot.
+* **Twitch User Information:** Usernames and user IDs of Twitch users may be stored for operational purposes related to the ApuJar Twitch chatbot.
 
 ## Protection Measures
 
@@ -52,7 +52,7 @@ If you have any questions, concerns, or requests regarding our Privacy Policy or
 
 ## Additional Information
 
-The ApuJar Twitch Chatbot is open-source. You can access its GitHub repository [here](https://github.com/BlockyDotJar/ApuJar).
+The ApuJar Twitch chatbot is open-source. You can access its GitHub repository [here](https://github.com/BlockyDotJar/ApuJar).
 Specific details regarding the types of data that can be accessed through Spotify API scopes are outlined on the [Spotify Developer website](https://developer.spotify.com/documentation/web-api/concepts/scopes).
 
 Thank you for taking the time to review our Privacy Policy. Your privacy and trust are valued, and we are committed to protecting your personal information while providing you with a seamless user experience on the ApuJar Documentation Website.

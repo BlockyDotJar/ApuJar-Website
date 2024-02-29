@@ -51,7 +51,7 @@ Get your authorization code by pressing the button below and use the `kok!addspo
 kok!addspotifyuser AQAHmX5mRpzk75usKul6CJE01ZMiXKrt4l9Z7KIvCZPtp3dRHHJMDBH9bNA6wD32CwzgM79eL4NqUhrPyyTxyE7rrh6k6sksd83jDoncdyCq2wTLNhjF_6dHlz1IVd3tlbUwJ-GexiJOh0A1ITg_BxCyuuvqhviAEDe5vZ7kaNJI42wMfeCQQHHP0UrQsvLUcV3aCbHIPx1li5vpriXtKeTBmOZVTR1mhH-cujJRp3uDoxeqvQGj6duyxFzM3WCXR1PklNYV0Inr_KAscYNbFS-mnu7jwMkxX2DXL0Z7aKr05d-QnN4AB8DTHvcRN_eKFM9bLMYvviEcP_8ujWWUCtU9JNbEZq18ypb6B5QrtbG5cQkLkLTdsXGl
 ```
 
-If you want to know more about this command you can [click here](/bot-commands/spotify-commands.html?h=addspotifyuser) to get to the command overview.
+If you want to know more about this command you can [click here](/commands/spotify.html?h=addspotifyuser) to get to the command overview.
 <br>If everything went right, the bot will response as following in the specified chat:
 
 ![ApuJar's message, after successful creation of access and refresh token for Spotify from the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/spotify-message.png)
