@@ -1,5 +1,5 @@
 site_name: ApuJar
-copyright: 'Copyright 2024 Dominic R. (aka. BlockyDotJar)'
+copyright: '© 2024 Dominic R. (aka. BlockyDotJar)'
 
 theme:
   custom_dir: overrides

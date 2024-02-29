@@ -14,10 +14,10 @@
     <prefix>addspotifyuser <spotify-authorization-code>
     ```
 
-    | Parameter   		    | Description                                                                                                                  |
-    | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-    | `prefix`    		    | Your channel specific prefix    (**Default:** kok!)                                                   			   |
-    | `spotify-authorization-code`  | Your Spotify authorization code (Can be generated [here](https://apujar.blockyjar.dev/oauth2/spotify.html)) |
+    | Parameter   		            | Description                                                                     |
+    | ----------------------------- | ------------------------------------------------------------------------------- |
+    | `prefix`    		            | Your channel specific prefix    (**Default:** kok!)                             |
+    | `spotify-authorization-code`  | Your Spotify authorization code (Can be generated [here](/oauth2/spotify.html)) |
 
     !!! failure "Possible errors"
         * No authorization code specified
@@ -42,7 +42,7 @@
 
     | Parameter   | Description                                                                                           |
     | ----------- | ----------------------------------------------------------------------------------------------------- |
-    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                 		  |
+    | `prefix`    | Your channel specific prefix    (**Default:** kok!)                                 		          |
     | `username`  | The name of the user            (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"

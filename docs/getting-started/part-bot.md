@@ -16,7 +16,7 @@ kok!part blockydotjar
 !!! danger "Permissions needed"
     You need to be mod or broadcaster (if the chat is equal to your chat) at the chat you specified.
 
-If you want to know more about this command you can [click here](https://apujar.blockyjar.dev/bot-commands/utility-commands.html?h=part) to get to the command overview.
+If you want to know more about this command you can [click here](/utility-commands.html?h=part) to get to the command overview.
 
 <p>
     If you want to check, if everything went right you can try to execute the ping command.

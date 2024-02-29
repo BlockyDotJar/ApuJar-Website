@@ -48,10 +48,10 @@ Get your authorization code by pressing the button below and use the `kok!addspo
 <p>For Example:</p>
 
 ```java
-kok!addspotifyuser AQByeoV6_LR-jINKEIwCR09fLHkxJkGqTJdwg1Yg76Kqeuj42VYN_WNkcDi-TKcZbBX_3gW_ujEtLr0yS8yDnw1Wx0JpEDuOGDKUW-Hg_cQNrueHHO7sVUTSjuRfcOgNvElGKlU7rZYAiE8PdUjjp30eCGzsFogBkY9rS6WpGNa1VxScrAdCEf3VSavO1C0pm4r2gS4wIxt31rtf0Zg167EvJvhT4CUXRAZiLcdf_d1LIvLJ4pzoECJqbCXR-2IwHL6UC8qQrmbeF1sRvmtwrJslanoNSF2mlgcFJvaDXEm4a6dER7wvvp_Uo3P5VLroTi9u8miyhz58hVwF4OsFko5KxA3eBGFhib-pS04VC_1CsMbmhIQwZxw_
+kok!addspotifyuser AQAHmX5mRpzk75usKul6CJE01ZMiXKrt4l9Z7KIvCZPtp3dRHHJMDBH9bNA6wD32CwzgM79eL4NqUhrPyyTxyE7rrh6k6sksd83jDoncdyCq2wTLNhjF_6dHlz1IVd3tlbUwJ-GexiJOh0A1ITg_BxCyuuvqhviAEDe5vZ7kaNJI42wMfeCQQHHP0UrQsvLUcV3aCbHIPx1li5vpriXtKeTBmOZVTR1mhH-cujJRp3uDoxeqvQGj6duyxFzM3WCXR1PklNYV0Inr_KAscYNbFS-mnu7jwMkxX2DXL0Z7aKr05d-QnN4AB8DTHvcRN_eKFM9bLMYvviEcP_8ujWWUCtU9JNbEZq18ypb6B5QrtbG5cQkLkLTdsXGl
 ```
 
-If you want to know more about this command you can [click here](https://apujar.blockyjar.dev/bot-commands/spotify-commands.html?h=addspotifyuser) to get to the command overview.
+If you want to know more about this command you can [click here](/bot-commands/spotify-commands.html?h=addspotifyuser) to get to the command overview.
 <br>If everything went right, the bot will response as following in the specified chat:
 
 ![ApuJar's message, after successful creation of access and refresh token for Spotify from the chat.](https://raw.githubusercontent.com/BlockyDotJar/ApuJar-Website/main/docs/assets/images/spotify-message.png)
