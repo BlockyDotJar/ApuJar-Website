@@ -6,7 +6,7 @@ ApuJar is based on **Java 21.0.2**!
 This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdocs-material](https://github.com/squidfunk/mkdocs-material) and [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects)!
 
 * (**kotlin**) stdlib
-    * Version: **1.9.22**
+    * Version: **1.9.23**
     * [Website](https://kotlinlang.org/api/latest/jvm/stdlib/)
 * twitch4j
     * Version: **1.19.0**
@@ -27,7 +27,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **3.8.0**
     * [Website](https://square.github.io/okio/)
 * json
-    * Version: **20240205**
+    * Version: **20240303**
     * [Github](https://github.com/stleary/JSON-java)
 * sqlite-jdbc
     * Version: **3.45.1.0**
@@ -51,7 +51,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **2.0.12**
     * [Website](https://slf4j.org/)
 * logback-classic
-    * Version: **1.5.1**
+    * Version: **1.5.3**
     * [Website](https://logback.qos.ch/)
 * spotbugs-annotations
     * Version: **4.8.3**
@@ -69,13 +69,13 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **0.51.0**
     * [Website](https://plugins.gradle.org/plugin/com.github.ben-manes.versions)
 * (**kotlin**) jvm
-    * Version: **1.9.22**
+    * Version: **1.9.23**
     * [Website](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm)
 
 # Website dependencies
 
 * mkdocs-material
-    * Version: **9.5.11**
+    * Version: **9.5.13**
     * [Website](https://squidfunk.github.io/mkdocs-material)
 * mkdocs-redirects
     * Version: **1.2.1**
@@ -96,5 +96,5 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **2023.3.4**
     * [Website](https://www.jetbrains.com/de-de/idea)
 * Visual Studio Code
-    * Version: **1.86.2**
+    * Version: **1.87.1**
     * [Website](https://code.visualstudio.com/)
