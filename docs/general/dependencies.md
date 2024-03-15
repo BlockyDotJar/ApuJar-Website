@@ -24,17 +24,20 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **4.12.0**
     * [Website](https://square.github.io/okhttp/)
 * okio-jvm
-    * Version: **3.8.0**
+    * Version: **3.9.0**
     * [Website](https://square.github.io/okio/)
 * json
     * Version: **20240303**
     * [Github](https://github.com/stleary/JSON-java)
 * sqlite-jdbc
-    * Version: **3.45.1.0**
+    * Version: **3.45.2.0**
     * [Github](https://github.com/xerial/sqlite-jdbc)
 * dotenv-java
     * Version: **3.0.0**
     * [Github](https://github.com/cdimascio/dotenv-java)
+* nv-i18n
+    * Version: **1.28**
+    * [Github](https://github.com/TakahikoKawasaki/nv-i18n)
 * joda-time
     * Version: **2.12.7**
     * [Website](https://www.joda.org/joda-time)
@@ -93,8 +96,8 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
 # Other used tools
 
 * IntelliJ IDEA Community Edition
-    * Version: **2023.3.4**
+    * Version: **2023.3.5**
     * [Website](https://www.jetbrains.com/de-de/idea)
 * Visual Studio Code
-    * Version: **1.87.1**
+    * Version: **1.87.2**
     * [Website](https://code.visualstudio.com/)
