@@ -1,7 +1,7 @@
 # ApuJar dependencies
 
 ApuJar is based on **Java 21.0.2**!
-<br>All dependencies and plugins are managed automatically by **Gradle 9.6**!
+<br>All dependencies and plugins are managed automatically by **Gradle 9.7**!
 
 This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdocs-material](https://github.com/squidfunk/mkdocs-material) and [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects)!
 
@@ -15,10 +15,10 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
     * Version: **8.3.6**
     * [Github](https://github.com/spotify-web-api-java/spotify-web-api-java)
 * retrofit
-    * Version: **2.9.0**
+    * Version: **2.10.0**
     * [Website](https://square.github.io/retrofit/)
 * converter-gson
-    * Version: **2.9.0**
+    * Version: **2.10.0**
     * [Github](https://github.com/square/retrofit/tree/trunk/retrofit-converters/gson)
 * okhttp
     * Version: **4.12.0**
@@ -78,7 +78,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
 # Website dependencies
 
 * mkdocs-material
-    * Version: **9.5.13**
+    * Version: **9.5.14**
     * [Website](https://squidfunk.github.io/mkdocs-material)
 * mkdocs-redirects
     * Version: **1.2.1**
@@ -96,7 +96,7 @@ This Website is based on **Python 3.13.2** with pip version **24.0** using [mkdo
 # Other used tools
 
 * IntelliJ IDEA Community Edition
-    * Version: **2023.3.5**
+    * Version: **2023.3.6**
     * [Website](https://www.jetbrains.com/de-de/idea)
 * Visual Studio Code
     * Version: **1.87.2**
