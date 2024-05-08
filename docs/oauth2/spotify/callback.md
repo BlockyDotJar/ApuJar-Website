@@ -4,16 +4,19 @@ search:
 ---
 
 <script>
-    const params = new Proxy(new URLSearchParams(window.location.search), {
+    const params = new Proxy(new URLSearchParams(window.location.search),
+    {
         get: (searchParams, prop) => searchParams.get(prop),
     });
 
     const code = params.code;
 
-    window.onload = async function () {
+    window.onload = async function ()
+    {
         const codeElement = document.getElementById("code");
 
-        if (code !== null && code.startsWith("AQ") && code.length === 376) {
+        if (code !== null && code.startsWith("AQ") && code.length === 376)
+        {
             codeElement.innerHTML = "<p id='code' title='Get Spotify authorization code' class='md-button md-button--primary'>Get authorization code!</p>";
             return;
         }
@@ -23,8 +26,10 @@ search:
         alert("No code query parameter found in the callback url.");
     }
 
-    document.addEventListener('click', async function (event) {
-        if (event.target.id === "code") {
+    document.addEventListener("click", async function (event)
+    {
+        if (event.target.id === "code")
+        {
             await navigator.clipboard.writeText(code);
             alert("Successfully copied authorization code to clipboard.");
         }
