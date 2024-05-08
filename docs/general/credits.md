@@ -34,6 +34,15 @@ Thank you to all of the contributors of [the dependencies/plugins/other projects
     * For helping me on finding some issues
 * cordo_exe (259160340)
     * For helping me on finding some issues
+* TwitchiSupporter (401235515)
+    * For helping me on finding several issues
+    * For testing alot of features
+    * For giving me many feature ideas
+* lilb_lxryer (676966284)
+    * For helping me on finding several issues
+    * For testing alot of features
+    * For giving me many feature ideas
+    * For providing the chatter API for me
 * <span class="holyshithowlongisthisname">0xWWWWWWWWWWWWWWWWWWWWWWW</span> (654368477)
     * For having a very long name
 
