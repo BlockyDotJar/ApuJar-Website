@@ -1,16 +1,16 @@
 # Part bot from Twitch chat
 
-To remove the bot you need to use the `kok!part` command in the chat, you want to remove the bot in.
+To remove the bot you need to use the `#part` command in the chat, you want to remove the bot in.
 <br>If you want to remove the bot outside of the chat, you are sending the message in, you need also to add the username of that chat.
 
 !!! note "Tip"
     You can get the channel specific prefix from the bot, by simply pinging the bot in the chat with `prefix` in the same message. 
-    <br>(Message must match following RegEx: `^@?apujar,? prefix(.*)?$`)
+    <br>(Message must match following RegEx: `(.*)?@?apujar,?\s+?prefix(.*)?`)
 
 <p>For Example:</p>
 
 ```java
-kok!part blockydotjar
+#part blockydotjar
 ```
 
 !!! danger "Permissions needed"

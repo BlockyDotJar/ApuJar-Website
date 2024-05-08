@@ -11,7 +11,7 @@
 
     | Parameter  | Description                                                                                |
     | ---------- | ------------------------------------------------------------------------------------------ |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                           |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                           |
     | `username` | The name of the user (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
@@ -32,12 +32,12 @@
 
     | Parameter  | Description                                                                                |
     | ---------- | ------------------------------------------------------------------------------------------ |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                           |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                           |
     | `username` | The name of the user (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
         * **If username is specified:** Username specified, where sender isn't even a mod or broadcaster at, without having admin/owner permissions
-        * **If username is specified:** Username does match with an owner name
+        * **If username is specified:** Username does match with an owner name or ApuJar
         * Bot not connected to chat
 
 Any problems? Join our [Discord server](https://discord.gg/FnGFbzCw2r) or send me a dm on Twitch (BlockyDotJar -> 755628467).

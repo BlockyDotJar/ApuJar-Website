@@ -7,17 +7,17 @@
     Usage: <prefix>say <message>
     ```
 
-    | Parameter | Description                                      |
-    | --------- | ------------------------------------------------ |
-    | `prefix`  | Your channel specific prefix (**Default:** kok!) |
-    | `message` | The message to send in the current chat          |
+    | Parameter | Description                                   |
+    | --------- | --------------------------------------------- |
+    | `prefix`  | Your channel specific prefix (**Default:** #) |
+    | `message` | The message to send in the current chat       |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
         * No message specified
         * Message contains **/** (slash) commands without having owner permissions
-        * Message contains **/** (slash) commands with owner permission, but sender isn't mod at the specified chat
-        * Message contains **/** (slash) commands with owner permission, but bot isn't mod at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but sender isn't a mod or the broadcaster at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but bot isn't a mod or the broadcaster at the specified chat
 
 
 ??? info "spam"
@@ -29,7 +29,7 @@
 
     | Parameter | Description                                                                                             |
     | --------- | ------------------------------------------------------------------------------------------------------- |
-    | `prefix`  | Your channel specific prefix (**Default:** kok!)                                                        |
+    | `prefix`  | Your channel specific prefix (**Default:** #)                                                           |
     | `amount`  | The amount of messages to spam in the current chat (Can't be higher than 100 without owner permissions) |
     | `message` | The message to spam in the current chat                                                                 |
 
@@ -40,8 +40,8 @@
         * Number bigger than 100 without having owner permissions
         * No message specified
         * Message contains **/** (slash) commands without having owner permissions
-        * Message contains **/** (slash) commands with owner permission, but sender isn't mod at the specified chat
-        * Message contains **/** (slash) commands with owner permission, but bot isn't mod at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but sender isn't a mod or the broadcaster at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but bot isn't a mod or the broadcaster at the specified chat
 
 
 ??? info "usersay"
@@ -59,7 +59,7 @@
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
     | `message`  | The message to send in the specified chat                                    |
 
@@ -68,20 +68,20 @@
     **For example:**
 
     ```yaml
-    kok!usay blockydotjar kok!ping
+    #usay blockydotjar #ping
     ```
 
     !!! danger "Prefix needs to match the prefix of the specified channel"
         **For example:** A user set the prefix to `lolxd!`, than the command must look like this:
 
         ```yaml
-            kok!usay blockydotjar lolxd!ping
+        #usay blockydotjar lolxd!ping
         ```
 
     **A message like this will be sent in chat 'blockydotjar':**
 
     ```cpp
-    ppPong Chat-Ping: 296ms FeelsLateMan I'm active in 7 chats Okay Uptime: 0d 0h 0m 32s FeelsOldMan RAM: 7,80 / 15,80 GiB hmmMeeting CPU(%): 1,21% top 
+    ppPong Chat-Ping: 171ms FeelsLateMan I'm active in 20 chats Okay Uptime: 0d 0h 14m 41s FeelsOldMan
     ```
 
     This is possible with every command, expect for admin and owner commands.
@@ -93,8 +93,8 @@
         * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch API
         * Message contains **/** (slash) commands without having owner permissions
-        * Message contains **/** (slash) commands with owner permission, but sender isn't mod at the specified chat
-        * Message contains **/** (slash) commands with owner permission, but bot isn't mod at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but sender isn't a mod or the broadcaster at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but bot isn't a mod or the broadcaster at the specified chat
         * Message contains owner or admin commands
 
 
@@ -113,7 +113,7 @@
 
     | Parameter  | Description                                                                                               |
     | ---------- | --------------------------------------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                                          |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                                             |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character)                              |
     | `amount`   | The amount of messages to spam in the specified chat (Can't be higher than 100 without owner permissions) |
     | `message`  | The message to spam in the specified chat                                                                 |
@@ -128,11 +128,11 @@
         * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch API
         * Message contains **/** (slash) commands without having owner permissions
-        * Message contains **/** (slash) commands with owner permission, but sender isn't mod at the specified chat
-        * Message contains **/** (slash) commands with owner permission, but bot isn't mod at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but sender isn't a mod or the broadcaster at the specified chat
+        * Message contains **/** (slash) commands with owner permission, but bot isn't a mod or the broadcaster at the specified chat
 
 
-??? danger "crossban (Not fully functional atm; functionality will change in future)"
+??? info "crossban"
     ```yaml
     Alias: cb
     ```
@@ -141,24 +141,26 @@
 
     ```java
     Usages: 
-    <prefix>cb @username
-    <prefix>crossban @username
+    <prefix>cb @username <reason?>
+    <prefix>crossban @username <reason?>
     ```
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!) 					         |
+    | `prefix`   | Your channel specific prefix (**Default:** #) 					            |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
+    | `reason`   | The reason for the ban (**Optional**)                                        |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
         * No username specified
         * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch API
-        * No one got banned, because the bot is not a mod in any chat
+        * You want to crossban yourself
+        * User is already banned in every chat the bot is mod in
 
 
-??? danger "crossunban (Not fully functional atm; functionality will change in future)"
+??? info "crossunban"
     ```yaml
     Alias: cub
     ```
@@ -171,9 +173,9 @@
     <prefix>crossunban @username
     ```
 
-    | Parameter  | Description                                                     	         |
+    | Parameter  | Description                                                     	            |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!) 					         |
+    | `prefix`   | Your channel specific prefix (**Default:** #) 					            |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
@@ -181,7 +183,8 @@
         * No username specified
         * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch API
-        * No one got unbanned, because the bot is not a mod in any chat
+        * You want to crossunban yourself
+        * User isn't banned in any chat the bot is mod in
 
 
 ??? info "addglobalcommand"
@@ -199,20 +202,22 @@
     <prefix>addglobalcommand <command-name> <command-message>
     ```
 
-    | Parameter         | Description                                                                             |
-    | ----------------- | --------------------------------------------------------------------------------------- |
-    | `prefix`          | Your channel specific prefix (**Default:** kok!)                                        |
-    | `command-name`    | The name for the global command (Can contain prefix, Can't contain the **'** character) |
-    | `command-message` | The message for the global command (Can't contain the **'** character)                  |
+    | Parameter         | Description                                                                                                       |
+    | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+    | `prefix`          | Your channel specific prefix (**Default:** #)                                                                     |
+    | `command-name`    | The name for the global command (Can contain prefix, Can't contain the **'** character, Can't start with a slash) |
+    | `command-message` | The message for the global command (Can't contain the **'** character, Can't start with a slash)                  |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
         * No command name specified
         * No command message specified
-        * Global command name already exists
-        * Bot command with specified global command name already exists
-        * Command name only contains **'** character
-        * Command message only contains **'** character
+        * Global command already exists
+        * Built in bot command with specified global command name already exists
+        * Command name only contains the **'** character
+        * Command message only contains the **'** character
+        * Command name starts with the **/** character
+        * Command message starts with the **/** character
 
 
 ??? info "editglobalcommand"
@@ -229,11 +234,11 @@
     <prefix>editglobalcommand <command-name> <new-command-message>
     ```
 
-    | Parameter             | Description                                                                |
-    | --------------------- | -------------------------------------------------------------------------- |
-    | `prefix`              | Your channel specific prefix (**Default:** kok!)                           |
-    | `command-name`        | The name of the global command                                             |
-    | `new-command-message` | The new message for the global command (Can't contain the **'** character) |
+    | Parameter             | Description                                                                                          |
+    | --------------------- | ---------------------------------------------------------------------------------------------------- |
+    | `prefix`              | Your channel specific prefix (**Default:** #)                                                        |
+    | `command-name`        | The name of the global command                                                                       |
+    | `new-command-message` | The new message for the global command (Can't contain the **'** character, Can't start with a slash) |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
@@ -241,6 +246,7 @@
         * No command message specified
         * Global command doesn't exists
         * New command message only contains **'** character
+        * New command message starts with the **/** character
         * New command message matches exactly with the old one
 
 
@@ -260,14 +266,41 @@
     <prefix>deleteglobalcommand <command-name>
     ```
 
-    | Parameter      | Description                                      |
-    | -------------- | ------------------------------------------------ |
-    | `prefix`       | Your channel specific prefix (**Default:** kok!) |
-    | `command-name` | The name of the global command                   |
+    | Parameter      | Description                                   |
+    | -------------- | --------------------------------------------- |
+    | `prefix`       | Your channel specific prefix (**Default:** #) |
+    | `command-name` | The name of the global command                |
 
     !!! failure "Possible errors"
         * Message sender is not an admin
         * No command name specified
         * Global command doesn't exists
+
+
+??? info "filesay"
+    ```yaml
+    Aliases: fs
+    ```
+
+    Sends every line of the specified textfile link to the chat.
+
+    ```java
+    Usages: 
+    <prefix>fs <link>
+    <prefix>filesay <link>
+    ```
+
+    | Parameter | Description                                   |
+    | ----------| --------------------------------------------- |
+    | `prefix`  | Your channel specific prefix (**Default:** #) |
+    | `link`    | A valid http(s) link to a textfile            |
+
+    !!! failure "Possible errors"
+        * Message sender is not an admin
+        * No link specified
+        * Link doesn't start with http:// or https://
+        * Server returned a bad status code
+        * Content-Type Header doesn't equal to text/plain
+        * Server returned empty response
 
 Any problems? Join our [Discord server](https://discord.gg/FnGFbzCw2r) or send me a dm on Twitch (BlockyDotJar -> 755628467).

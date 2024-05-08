@@ -88,6 +88,9 @@ nav:
     - Owner Commands: commands/owner.md
     - Admin Commands: commands/admin.md
     - Utility Commands: commands/utility.md
+    - Modscanner Commands: commands/modscanner.md
     - Spotify Commands: commands/spotify.md
     - 7tv Commands: commands/seventv.md
+    - Weather Commands: commands/weather.md
+    - Game Commands: commands/games.md
   - Spotify: oauth2/spotify.md

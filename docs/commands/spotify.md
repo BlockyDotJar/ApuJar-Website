@@ -16,7 +16,7 @@
 
     | Parameter   		           | Description                                                                     |
     | ---------------------------- | ------------------------------------------------------------------------------- |
-    | `prefix`    		           | Your channel specific prefix (**Default:** kok!)                                |
+    | `prefix`    		           | Your channel specific prefix (**Default:** #)                                |
     | `spotify-authorization-code` | Your Spotify authorization code (Can be generated [here](/oauth2/spotify.html)) |
 
     !!! failure "Possible errors"
@@ -42,7 +42,7 @@
 
     | Parameter  | Description                                                                                |
     | ---------- | ------------------------------------------------------------------------------------------ |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                                 	      |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                 	      |
     | `username` | The name of the user (**Optional**, **Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"

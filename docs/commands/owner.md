@@ -9,11 +9,11 @@
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
-        * Message sender is not an owner
+        * Message sender is not the bot founder
         * No username specified
         * Username doesn't match with regex `^(?!_)\w+$`
         * User not found by Twitch API
@@ -35,11 +35,11 @@
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
-        * Message sender is not an owner
+        * Message sender is not the bot founder
         * No username specified
         * User is not an owner
 
@@ -53,7 +53,7 @@
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
@@ -79,7 +79,7 @@
 
     | Parameter  | Description                                                                  |
     | ---------- | ---------------------------------------------------------------------------- |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!)                             |
+    | `prefix`   | Your channel specific prefix (**Default:** #)                                |
     | `username` | The name of the user (**Case-Insensitive**, Can contain the **@** character) |
 
     !!! failure "Possible errors"
@@ -90,15 +90,15 @@
     
 
 ??? info "exit"
-    Closes database connection, disconnects from every Twitch websocket and exits the System
+    Closes database connection, disconnects from every Twitch websocket and exits the System.
 
     ```java
-    Usages: <prefix>exit
+    Usage: <prefix>exit
     ```
 
-    | Parameter | Description                                      |
-    | --------- | ------------------------------------------------ |
-    | `prefix`  | Your channel specific prefix (**Default:** kok!) |
+    | Parameter | Description                                   |
+    | --------- | --------------------------------------------- |
+    | `prefix`  | Your channel specific prefix (**Default:** #) |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
@@ -108,16 +108,40 @@
     Executes sql commands in the connected database and sends database metadata.
 
     ```java
-    Usages: <prefix>sql <SQL-code>
+    Usage: <prefix>sql <SQL-code>
     ```
 
-    | Parameter  | Description                                      |
-    | ---------- | ------------------------------------------------ |
-    | `prefix`   | Your channel specific prefix (**Default:** kok!) |
-    | `SQL-Code` | The sql code to execute                          |
+    | Parameter  | Description                                   |
+    | ---------- | --------------------------------------------- |
+    | `prefix`   | Your channel specific prefix (**Default:** #) |
+    | `SQL-Code` | The sql code to execute                       |
 
     !!! failure "Possible errors"
         * Message sender is not an owner
         * No sql code specified
+
+
+??? info "globalsay"
+    ```yaml
+    Alias: gsay
+    ```
+
+    Lets the bot say a message in every chat he is in.
+
+    ```java
+    Usages:
+    <prefix>gsay <message>
+    <prefix>globalsay <message>
+    ```
+
+    | Parameter | Description                                   |
+    | --------- | --------------------------------------------- |
+    | `prefix`  | Your channel specific prefix (**Default:** #) |
+    | `message` | The message to send in the every chat         |
+
+    !!! failure "Possible errors"
+        * Message sender is not an owner
+        * No message specified
+        * Message contains **/** (slash) commands
 
 Any problems? Join our [Discord server](https://discord.gg/FnGFbzCw2r) or send me a dm on Twitch (BlockyDotJar -> 755628467).
